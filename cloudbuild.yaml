@@ -2,4 +2,4 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/cohesive-feat-403611/cloudrun-build:$SHORT_SHA', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push',s 'gcr.io/cohesive-feat-403611/cloudrun-build:$SHORT_SHA', '.']  
+  args: ['push','gcr.io/cohesive-feat-403611/cloudrun-build:$SHORT_SHA', '.']  
