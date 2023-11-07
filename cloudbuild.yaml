@@ -1,5 +1,5 @@
 steps:
  name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/cohesive-feat-403611/github.com/wowmind/cloudrun-build:$SHOWSHA', '.']
+  args: ['build', '-t', 'gcr.io/cohesive-feat-403611/reactgkeapp:$SHOWSHA', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/cohesive-feat-403611/github.com/wowmind/cloudrun-build:$SHOWSHA', '.']
+  args: ['push', 'gcr.io/cohesive-feat-403611/reactgkeapp:$SHOWSHA', '.']
