@@ -1,5 +1,5 @@
 steps:
  name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/cohesive-feat-403611/cloudrun-build:9bcdf6d0b60af11f6fc7023d623b37f86549fd39', '.']
+  args: ['build', '-t', 'gcr.io/cohesive-feat-403611/github.com/wowmind/cloudrun-build:9bcdf6d0b60af11f6fc7023d623b37f86549fd39', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/cohesive-feat-403611/cloudrun-build:9bcdf6d0b60af11f6fc7023d623b37f86549fd39', '.']
+  args: ['push', 'gcr.io/cohesive-feat-403611/github.com/wowmind/cloudrun-build:9bcdf6d0b60af11f6fc7023d623b37f86549fd39', '.']
